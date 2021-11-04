@@ -15,13 +15,18 @@ header {
     background-color: #bada55;
 }
 
-.langage {
+.language {
     display: flex;
     width: calc(100% / 3);
-    border: 1px solid #000;
+    border: 1px solid rgb(53, 52, 52);
     justify-content: center;
     align-items: center;
-    color: orangered;
+    color: crimson;
     font-weight: 300;
     font-size: 2.5em;
+}
+
+.active {
+    background-color: crimson;
+    color: #bada55;
 }
